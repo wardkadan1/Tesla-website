@@ -1,0 +1,217 @@
+@font-face {
+  font-family: "UniversalSans";
+  src: url("assets/fonts/UniversalSans-Regular.woff2") format("woff2"),
+    url("assets/fonts/UniversalSans-Regular.woff") format("woff"),
+    url("assets/fonts/UniversalSans-Regular.ttf") format("truetype");
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  color: #ffffff;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Universal Sans Text", -apple-system, Arial, sans-serif;
+}
+
+nav {
+  background: none;
+  display: flex;
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+}
+
+.nav_center {
+  display: flex;
+  padding: 0 8px;
+  justify-content: center;
+  width: 626.67px;
+  height: 56px;
+}
+
+.nav_center ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+
+.nav_center li {
+  padding: 4px 16px;
+}
+
+.nav_center ul li a {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.nav_center,
+.right,
+.left {
+  align-items: center;
+}
+
+.right {
+  width: 642.67px;
+  display: flex;
+  padding: 0 0 0 32px;
+}
+
+.logo {
+  box-shadow: none;
+  height: 24px;
+  padding: 0 16px;
+}
+
+.logo svg {
+  width: 120px;
+  height: 24px;
+}
+
+.left {
+  padding: 0 32px 0 0;
+  width: 626.67px;
+  display: flex;
+  justify-content: end;
+}
+
+.left ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+
+.left li {
+  width: 36px;
+  display: flex;
+  height: 33px;
+  margin: 0 4px 0 0;
+  text-align: center;
+  align-items: center;
+}
+
+.left ul li a {
+  text-decoration: none;
+  padding: 0 16px 0 0;
+}
+
+.left svg {
+  width: 24px;
+  height: 24px;
+}
+
+._1_home,
+._2_home,
+._3_home,
+._4_home {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+._1_home {
+  background-image: url("./image/home.png");
+}
+
+._2_home {
+  background-image: url("./image/Homepage-Model-Y-Desktop-US-v2.png");
+}
+
+._3_home {
+  background-image: url("./image/Homepage-Model-X-Desktop-US.png");
+}
+
+._4_home {
+  background-image: url("./image/Homepage-Model-S-Desktop-US.png");
+}
+
+.model {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.model h3 a {
+  font-size: 28px;
+}
+
+.model h1 {
+  font-size: 56px;
+  margin: 114.72px 0 0 0;
+}
+
+.model p {
+  padding: 5px 0 4px;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.model div {
+  margin-top: 643px;
+  display: flex;
+  padding: 0 0 32px;
+  justify-content: center;
+}
+
+#new_ {
+  margin-top: 623px;
+  display: flex;
+  padding: 0 0 32px;
+  justify-content: center;
+}
+
+.model .new {
+  font-size: 28px;
+}
+
+sup {
+  font-size: 9px;
+}
+
+.down {
+  width: 592px;
+  height: 40px;
+  display: flex;
+  padding: 0 24px;
+}
+
+.order,
+.demo {
+  width: 264px;
+  height: 40px;
+  padding: 4px 24px;
+  text-decoration: none;
+  background-clip: content-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+}
+
+.order {
+  background-color: #3e6ae1;
+}
+
+.demo {
+  background-color: #ffffff;
+  color: #393c41;
+}
+
+.demo span {
+  color: #393c41;
+}
+
+.order span,
+.demo span {
+  font-size: 14px;
+  display: flex;
+  width: 211.2px;
+  height: 16.8px;
+  justify-content: center;
+  align-items: center;
+}
