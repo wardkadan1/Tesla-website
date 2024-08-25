@@ -129,41 +129,27 @@ nav {
   background-image: url("./image/Homepage-Model-S-Desktop-US.png");
 }
 
-.model {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+.up {
   text-align: center;
+  top: 11vh;
+  position: relative;
 }
 
-.model h3 a {
+.up h3 a {
   font-size: 28px;
 }
 
-.model h1 {
+.up h1 {
   font-size: 56px;
-  margin: 114.72px 0 0 0;
 }
 
-.model p {
+.up p {
   padding: 5px 0 4px;
   font-size: 17px;
   font-weight: 600;
 }
 
-.model div {
-  margin-top: 640px;
-  display: flex;
-  justify-content: center;
-}
-
-#new_ {
-  margin-top: 623px;
-  display: flex;
-  justify-content: center;
-}
-
-.model .new {
+.up .new {
   font-size: 28px;
 }
 
@@ -176,6 +162,23 @@ sup {
   display: flex;
   justify-content: center;
   padding: 0 24px;
+  position: absolute;
+}
+
+#_1_home_ {
+  top: 91vh;
+}
+
+#_2_home_ {
+  top: 191vh;
+}
+
+#_3_home_ {
+  top: 291vh;
+}
+
+#_4_home_ {
+  top: 391vh;
 }
 
 .order,
