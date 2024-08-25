@@ -48,6 +48,12 @@ nav {
   font-weight: 600;
 }
 
+.nav_center li:hover,
+.left li:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+  border-radius: 7px;
+}
+
 .nav_center,
 .right,
 .left {
@@ -88,7 +94,7 @@ nav {
   width: 36px;
   display: flex;
   height: 33px;
-  margin: 0 4px 0 0;
+  padding: 4px 16px 0px 7px;
   text-align: center;
   align-items: center;
 }
