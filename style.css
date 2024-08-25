@@ -49,18 +49,18 @@ nav {
 }
 
 .nav_center li:hover,
-.left li:hover {
+.right li:hover {
   background-color: rgba(0, 0, 0, 0.05);
   border-radius: 7px;
 }
 
 .nav_center,
-.right,
-.left {
+.left,
+.right {
   align-items: center;
 }
 
-.right {
+.left {
   width: 642.67px;
   display: flex;
   padding: 0 0 0 32px;
@@ -77,20 +77,20 @@ nav {
   height: 24px;
 }
 
-.left {
+.right {
   padding: 0 32px 0 0;
   width: 626.67px;
   display: flex;
   justify-content: end;
 }
 
-.left ul {
+.right ul {
   list-style-type: none;
   display: flex;
   justify-content: center;
 }
 
-.left li {
+.right li {
   width: 36px;
   display: flex;
   height: 33px;
@@ -99,12 +99,12 @@ nav {
   align-items: center;
 }
 
-.left ul li a {
+.right ul li a {
   text-decoration: none;
   padding: 0 16px 0 0;
 }
 
-.left svg {
+.right svg {
   width: 24px;
   height: 24px;
 }
